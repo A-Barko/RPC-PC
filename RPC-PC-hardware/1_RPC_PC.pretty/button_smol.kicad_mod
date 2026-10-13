@@ -1,0 +1,109 @@
+(footprint "button_smol"
+	(version 20260624)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a7709c85-ff32-45f4-9f22-bcae0338c19e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Buttom_smol"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69865f71-aca1-4b1d-be15-b4cd3bd6b4e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "no"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9d5a599-da47-4b9a-90fc-f9905d78653a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "small button"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b66329e-119d-487b-a0d4-94afce900be1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.52 -0.71)
+		(end 3.25 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58e476d8-3a64-4e25-b0ec-66ff7e1ffae9")
+	)
+	(fp_text user "Button"
+		(at -2.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a274c5cb-1c89-4c7a-9c5a-61fadaa67fef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7cb993d-9eb5-4b4c-916d-10e858f24b7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.625 1 180)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0341d537-e835-472d-84aa-da43dca51671")
+	)
+	(pad "2" smd roundrect
+		(at -1.875 1 180)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "adb29e43-e4a4-4c3a-94a7-de98245419c7")
+	)
+	(embedded_fonts no)
+)
